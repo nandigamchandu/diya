@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.client.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "jsx": "react",
+    "typeRoots": [
+      "src/customTypings",
+      "node_modules/@types"
+    ]
+  }
+}

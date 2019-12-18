@@ -1,6 +1,6 @@
 {
-  "extends": "./tsconfig.client.json",
   "compilerOptions": {
+      "esModuleInterop": true,
     "outDir": "dist",
     "rootDir": "src",
     "jsx": "react",

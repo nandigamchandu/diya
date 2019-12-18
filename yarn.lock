@@ -753,17 +753,17 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@date-io/core@^1.3.13":
+"@date-io/core@^1.3.11":
   version "1.3.13"
   resolved "https://registry.yarnpkg.com/@date-io/core/-/core-1.3.13.tgz#90c71da493f20204b7a972929cc5c482d078b3fa"
   integrity sha512-AlEKV7TxjeK+jxWVKcCFrfYAk8spX9aCyiToFIiLPtfQbsjmRGLIhb5VZgptQcJdHtLXo7+m0DuurwFgUToQuA==
 
-"@date-io/date-fns@^1.3.11":
-  version "1.3.13"
-  resolved "https://registry.yarnpkg.com/@date-io/date-fns/-/date-fns-1.3.13.tgz#7798844041640ab393f7e21a7769a65d672f4735"
-  integrity sha512-yXxGzcRUPcogiMj58wVgFjc9qUYrCnnU9eLcyNbsQCmae4jPuZCDoIBR21j8ZURsM7GRtU62VOw5yNd4dDHunA==
+"@date-io/date-fns@1.3.11":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@date-io/date-fns/-/date-fns-1.3.11.tgz#f0b320b9c5993b9914e3b4d71155ea40814a8d75"
+  integrity sha512-6Pvk4gwCU4L19XYzDUrro861JCQjZkJQjugxAA+M8wsDTW75A5rmSZGa6g2rQQXfg6ox4B7HBx9p6JYDsSPX0g==
   dependencies:
-    "@date-io/core" "^1.3.13"
+    "@date-io/core" "^1.3.11"
 
 "@emotion/hash@^0.7.1":
   version "0.7.3"
@@ -1223,9 +1223,9 @@
     "@types/react" "*"
 
 "@types/connect@*":
-  version "3.4.32"
-  resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.32.tgz#aa0e9616b9435ccad02bc52b5b454ffc2c70ba28"
-  integrity sha512-4r8qa0quOvh7lGD0pre62CAb1oni1OO6ecJLGCezTmhQ8Fz50Arx9RUszryR8KlgK6avuSXvviL6yWyViQABOg==
+  version "3.4.33"
+  resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.33.tgz#31610c901eca573b8713c3330abc6e6b9f588546"
+  integrity sha512-2+FrkXY4zllzTNfJth7jOqEHC+enpLeGslEhpnTAkg21GkRrWV4SsAtqchtT4YS9/nODBU2/ZfsBY2X4J/dX7A==
   dependencies:
     "@types/node" "*"
 
@@ -1319,9 +1319,9 @@
   integrity sha512-FwI9gX75FgVBJ7ywgnq/P7tw+/o1GUbtP0KzbtusLigAOgIgNISRK0ZPl4qertvXSIE8YbsVJueQ90cDt9YYyw==
 
 "@types/node@*":
-  version "12.12.17"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.17.tgz#191b71e7f4c325ee0fb23bc4a996477d92b8c39b"
-  integrity sha512-Is+l3mcHvs47sKy+afn2O1rV4ldZFU7W8101cNlOd+MRbjM4Onida8jSZnJdTe/0Pcf25g9BNIUsuugmE6puHA==
+  version "12.12.20"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.20.tgz#7b693038ce661fe57a7ffa4679440b5e7c5e8b99"
+  integrity sha512-VAe+DiwpnC/g448uN+/3gRl4th0BTdrR9gSLIOHA+SUQskaYZQDOHG7xmjiE7JUhjbXnbXytf6Ih+/pA6CtMFQ==
 
 "@types/node@12.7.8":
   version "12.7.8"
@@ -1450,9 +1450,9 @@
     "@types/react" "*"
 
 "@types/testing-library__dom@*", "@types/testing-library__dom@^6.0.0":
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/@types/testing-library__dom/-/testing-library__dom-6.10.0.tgz#590d76e3875a7c536dc744eb530cbf51b6483404"
-  integrity sha512-mL/GMlyQxiZplbUuFNwA0vAI3k3uJNSf6slr5AVve9TXmfLfyefNT0uHHnxwdYuPMxYD5gI/+dgAvc/5opW9JQ==
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/@types/testing-library__dom/-/testing-library__dom-6.11.0.tgz#777e3ef44cb48f2430e3fad6a2053ec39004a5d3"
+  integrity sha512-qUmnGl6H0wajUaO3VCJJoAeN/bQwpUzCqE/hk96NiGjIh5H4b8LfmQTOj4cHfS/9hCwO0DJytC6osHYDYiouyA==
   dependencies:
     pretty-format "^24.3.0"
 
@@ -3303,6 +3303,11 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
+date-fns@2.0.0-beta.5:
+  version "2.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.0.0-beta.5.tgz#90885db3772802d55519cd12acd49de56aca1059"
+  integrity sha512-GS5yi964NDFNoja9yOdWFj9T97T67yLrUeJZgddHaVfc/6tHWtX7RXocuubmZkNzrZUZ9BqBOW7jTR5OoWjJ1w==
+
 date-fns@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.4.0.tgz#e02d1d08ce80ae1db3de40a0028c9f54203d034b"
@@ -3313,7 +3318,7 @@ date-fns@2.7.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.7.0.tgz#8271d943cc4636a1f27698f1b8d6a9f1ceb74026"
   integrity sha512-wxYp2PGoUDN5ZEACc61aOtYFvSsJUylIvCjpjDOqM1UDaKIIuMJ9fAnMYFHV3TQaDpfTVxhwNK/GiCaHKuemTA==
 
-date-fns@^2.0.0-beta.5, date-fns@^2.0.1:
+date-fns@^2.0.1:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.8.1.tgz#2109362ccb6c87c3ca011e9e31f702bc09e4123b"
   integrity sha512-EL/C8IHvYRwAHYgFRse4MGAPSqlJVlOrhVYZ75iQBKrnv+ZedmYsgwH3t+BCDuZDXpoo07+q9j4qgSSOa7irJg==
@@ -3491,7 +3496,7 @@ detect-newline@^2.1.0:
 
 devfractal-api@nandigamchandu/api#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/api.git#333f5e6f38ab50c1a4eac2138594ebd3f21092b7"
+  resolved "https://codeload.github.com/nandigamchandu/api/tar.gz/333f5e6f38ab50c1a4eac2138594ebd3f21092b7"
   dependencies:
     axios "0.19.0"
     immer "4.0.0"
@@ -3502,7 +3507,7 @@ devfractal-api@nandigamchandu/api#1.2.19v:
 
 devfractal-crud@nandigamchandu/crud#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/crud.git#a7c585c322848db5efa7bada634705b4c0d17f15"
+  resolved "https://codeload.github.com/nandigamchandu/crud/tar.gz/a7c585c322848db5efa7bada634705b4c0d17f15"
   dependencies:
     "@types/react" "16.9.3"
     "@types/react-dom" "16.9.1"
@@ -3522,7 +3527,7 @@ devfractal-crud@nandigamchandu/crud#1.2.19v:
 
 devfractal-forms@nandigamchandu/forms#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/forms.git#5ee5b52b3b6b15d1fea591af9cb52b24210b2878"
+  resolved "https://codeload.github.com/nandigamchandu/forms/tar.gz/5ee5b52b3b6b15d1fea591af9cb52b24210b2878"
   dependencies:
     "@types/cleave.js" "1.4.1"
     "@types/react" "16.9.3"
@@ -3544,7 +3549,7 @@ devfractal-forms@nandigamchandu/forms#1.2.19v:
 
 devfractal-router@nandigamchandu/router#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/router.git#c9e07abd0f668594f6d2361315f9c80ecbdfa92a"
+  resolved "https://codeload.github.com/nandigamchandu/router/tar.gz/c9e07abd0f668594f6d2361315f9c80ecbdfa92a"
   dependencies:
     "@types/react-router" "5.1.1"
     "@types/react-router-dom" "5.1.2"
@@ -3555,7 +3560,7 @@ devfractal-router@nandigamchandu/router#1.2.19v:
 
 devfractal-simple@nandigamchandu/simple#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/simple.git#37e557448b5cdc60523f6e5e2872d562fa492201"
+  resolved "https://codeload.github.com/nandigamchandu/simple/tar.gz/37e557448b5cdc60523f6e5e2872d562fa492201"
   dependencies:
     "@types/react" "16.9.3"
     "@types/react-dom" "16.9.1"
@@ -3576,7 +3581,7 @@ devfractal-simple@nandigamchandu/simple#1.2.19v:
 
 devfractal-ui-api@nandigamchandu/ui-api#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/ui-api.git#2eb0024273eadaae648d2b7f88177f98e6d73321"
+  resolved "https://codeload.github.com/nandigamchandu/ui-api/tar.gz/2eb0024273eadaae648d2b7f88177f98e6d73321"
   dependencies:
     "@types/react" "16.9.11"
     bulma "0.7.5"
@@ -3588,7 +3593,7 @@ devfractal-ui-api@nandigamchandu/ui-api#1.2.19v:
 
 devfractal-ui-core@nandigamchandu/ui-core#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/ui-core.git#309423670b065338d7a9c71b78c631081c662e50"
+  resolved "https://codeload.github.com/nandigamchandu/ui-core/tar.gz/309423670b065338d7a9c71b78c631081c662e50"
   dependencies:
     "@fortawesome/fontawesome-svg-core" "1.2.25"
     "@fortawesome/free-brands-svg-icons" "5.11.2"
@@ -3605,7 +3610,7 @@ devfractal-ui-core@nandigamchandu/ui-core#1.2.19v:
 
 devfractal-ui@nandigamchandu/ui#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/ui.git#98f295cc8a7c32fd85635d2bd4e7613fa5f6c5a3"
+  resolved "https://codeload.github.com/nandigamchandu/ui/tar.gz/98f295cc8a7c32fd85635d2bd4e7613fa5f6c5a3"
   dependencies:
     "@types/react" "16.9.3"
     "@types/react-dom" "16.9.1"
@@ -6760,9 +6765,9 @@ node-pre-gyp@*:
     tar "^4.4.2"
 
 node-releases@^1.1.42:
-  version "1.1.42"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.42.tgz#a999f6a62f8746981f6da90627a8d2fc090bbad7"
-  integrity sha512-OQ/ESmUqGawI2PRX+XIRao44qWYBBfN54ImQYdWVTQqUckuejOg76ysSqDBK8NG3zwySRVnX36JwDQ6x+9GxzA==
+  version "1.1.43"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.43.tgz#2c6ca237f88ce11d49631f11190bb01f8d0549f2"
+  integrity sha512-Rmfnj52WNhvr83MvuAWHEqXVoZXCcDQssSOffU4n4XOL9sPrP61mSZ88g25NqmABDvH7PiAlFCzoSCSdzA293w==
   dependencies:
     semver "^6.3.0"
 
@@ -7753,9 +7758,9 @@ postcss@^6.0.1:
     supports-color "^5.4.0"
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.5:
-  version "7.0.24"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.24.tgz#972c3c5be431b32e40caefe6c81b5a19117704c2"
-  integrity sha512-Xl0XvdNWg+CblAXzNvbSOUvgJXwSjmbAKORqyw9V2AlHrm1js2gFw9y3jibBAhpKZi8b5JzJCVh/FyzPsTtgTA==
+  version "7.0.25"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.25.tgz#dd2a2a753d50b13bed7a2009b4a18ac14d9db21e"
+  integrity sha512-NXXVvWq9icrm/TgQC0O6YVFi4StfJz46M1iNd/h6B26Nvh/HKI+q4YZtFN/EjcInZliEscO/WL10BXnc1E5nwg==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -8539,9 +8544,9 @@ resolve@1.1.7:
   integrity sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
 
 resolve@1.x, resolve@^1.1.5, resolve@^1.10.0, resolve@^1.3.2, resolve@^1.4.0:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.13.1.tgz#be0aa4c06acd53083505abb35f4d66932ab35d16"
-  integrity sha512-CxqObCX8K8YtAhOBRg+lrcdn+LK+WYOS8tSjqSFbjtrI5PnS63QPhZl4+yKfrU9tdsbMu9Anr/amegT87M9Z6w==
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.14.0.tgz#6d14c6f9db9f8002071332b600039abf82053f64"
+  integrity sha512-uviWSi5N67j3t3UKFxej1loCH0VZn5XuqdNxoLShPcYPw6cUZn74K1VRj+9myynRX03bxIBEkwlkob/ujLsJVw==
   dependencies:
     path-parse "^1.0.6"
 
@@ -9362,7 +9367,7 @@ tcomb@3.2.29, tcomb@^3.2.29:
 
 technoidentity-dev-utils@nandigamchandu/dev-utils#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/dev-utils.git#6c629ad55d7399cae30fcec82435934374875397"
+  resolved "https://codeload.github.com/nandigamchandu/dev-utils/tar.gz/6c629ad55d7399cae30fcec82435934374875397"
   dependencies:
     "@types/chance" "1.0.7"
     "@types/json-server" "0.14.2"
@@ -9374,7 +9379,7 @@ technoidentity-dev-utils@nandigamchandu/dev-utils#1.2.19v:
 
 technoidentity-devfractal@nandigamchandu/devfractal#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/devfractal.git#8701e1c7001d4433984cba65f024e99dd711d31a"
+  resolved "https://codeload.github.com/nandigamchandu/devfractal/tar.gz/8701e1c7001d4433984cba65f024e99dd711d31a"
   dependencies:
     devfractal-api nandigamchandu/api#1.2.19v
     devfractal-crud nandigamchandu/crud#1.2.19v
@@ -9388,7 +9393,7 @@ technoidentity-devfractal@nandigamchandu/devfractal#1.2.19v:
 
 technoidentity-utils@nandigamchandu/utils#1.2.19v:
   version "1.2.19"
-  resolved "git+ssh://git@github.com/nandigamchandu/utils.git#51a0d346f40dae6bb16a33707e38728c1b364b26"
+  resolved "https://codeload.github.com/nandigamchandu/utils/tar.gz/51a0d346f40dae6bb16a33707e38728c1b364b26"
   dependencies:
     date-fns "2.4.0"
     fp-ts "2.0.5"
@@ -9416,9 +9421,9 @@ terser@^3.7.3:
     source-map-support "~0.5.10"
 
 terser@^4.3.9:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.4.2.tgz#448fffad0245f4c8a277ce89788b458bfd7706e8"
-  integrity sha512-Uufrsvhj9O1ikwgITGsZ5EZS6qPokUOkCegS7fYOdGTv+OA90vndUbU6PEjr5ePqHfNUbGyMO7xyIZv2MhsALQ==
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.4.3.tgz#401abc52b88869cf904412503b1eb7da093ae2f0"
+  integrity sha512-0ikKraVtRDKGzHrzkCv5rUNDzqlhmhowOBqC0XqUHFpW+vJ45+20/IFBcebwKfiS2Z9fJin6Eo+F1zLZsxi8RA==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"

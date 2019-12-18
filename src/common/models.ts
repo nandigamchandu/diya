@@ -445,7 +445,7 @@ export const DriverData1 = obj(
   {
     name: string,
     verified: boolean,
-    shift: Shift,
+    // shift: Shift,
   },
 )
 
